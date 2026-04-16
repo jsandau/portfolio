@@ -291,72 +291,38 @@ section {
 /* =============================================
    SKILLS
    ============================================= */
-<section id="skills">
-  <div class="section-inner">
+.skills-summary {
+  text-align: center;
+  color: var(--ink-light);
+  margin: 10px 0 40px;
+}
 
-    <div class="section-label">Skills</div>
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 60px;
+}
 
-    <p class="skills-summary">
-      I combine technical depth with business fluency — every system I build ties to real outcomes.
-    </p>
+.skill-card h3 {
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
 
-    <div class="skills-grid">
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-      <div class="skill-card">
-        <h3>Data & Analytics</h3>
-        <div class="tags">
-          <span class="tag">SQL</span>
-          <span class="tag">Python</span>
-          <span class="tag">dbt</span>
-          <span class="tag">Snowflake</span>
-          <span class="tag">Tableau</span>
-          <span class="tag">ETL</span>
-          <span class="tag">Scikit-learn</span>
-          <span class="tag">Regression</span>
-        </div>
-      </div>
-
-      <div class="skill-card">
-        <h3>Automation & Engineering</h3>
-        <div class="tags">
-          <span class="tag">GitHub Actions</span>
-          <span class="tag">APIs</span>
-          <span class="tag">Webhooks</span>
-          <span class="tag">Data Scraping</span>
-          <span class="tag">n8n</span>
-          <span class="tag">Zapier</span>
-          <span class="tag">Make</span>
-        </div>
-      </div>
-
-      <div class="skill-card">
-        <h3>GTM & CRM</h3>
-        <div class="tags">
-          <span class="tag">Salesforce</span>
-          <span class="tag">HubSpot</span>
-          <span class="tag">Apollo</span>
-          <span class="tag">Clay</span>
-          <span class="tag">CRM Automation</span>
-          <span class="tag">Enrichment</span>
-          <span class="tag">Outbound</span>
-        </div>
-      </div>
-
-      <div class="skill-card">
-        <h3>SaaS Economics</h3>
-        <div class="tags">
-          <span class="tag">CAC</span>
-          <span class="tag">LTV</span>
-          <span class="tag">Churn</span>
-          <span class="tag">Payback Period</span>
-          <span class="tag">Funnel Analytics</span>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+.tag {
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  color: var(--ink-light);
+  background: rgba(255,255,255,0.03);
+}
 /* =============================================
    PROJECTS
    ============================================= */
