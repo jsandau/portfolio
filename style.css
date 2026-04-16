@@ -155,7 +155,7 @@ section {
   font-size: 0.7rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--ink-light);
+  color: var(--accent);
   margin-bottom: 3rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--rule);
