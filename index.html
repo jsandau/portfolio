@@ -63,57 +63,90 @@
     <div class="section-inner">
       <div class="section-label">Projects</div>
 
-      <article class="project">
-        <div class="project-meta">
-          <span class="project-tag">Full-Stack · AI · CRM</span>
-          <span class="project-year">2026</span>
-        </div>
-        <h3 class="project-title">SiteIQ - AI Website Audit Platform</h3>
-        <p class="project-desc">A full-stack AI lead generation system that audits websites in under 60 seconds, scores performance across SEO, UX, conversion, and content, and converts visitors into qualified leads with automatic HubSpot CRM integration.</p>
-        <ul class="project-metrics">
-          <li>Designed and implemented a full-stack AI audit system</li>
-          <li>Next.js + TypeScript full-stack app with API routes and async job processing</li>
-          <li>Web scraping pipeline (fetch + Puppeteer fallback) for reliable data extraction</li>
-          <li>LLaMA 3.3 (Groq) structured analysis with enforced JSON output</li>
-          <li>PostgreSQL + Prisma persistence with lead gating and report storage</li>
-          <li>Automated HubSpot contact + deal creation with audit context</li>
-        </ul>
-        <a href="https://ai-site-audit-production.up.railway.app/" class="project-link">View Live Demo →</a>
-        <a href="https://github.com/jsandau/ai-site-audit" class="project-link">View on GitHub →</a>
-      </article>
-      
-      <article class="project">
-        <div class="project-meta">
-          <span class="project-tag">Automation · Backend · Data Pipeline</span>
-          <span class="project-year">2025</span>
-        </div>
-        <h3 class="project-title">Grocery Request Bot</h3>
-        <p class="project-desc">A Flask-based automation system for a 40-member fraternity house. Members submit grocery requests via GroupMe; the bot logs data to PostgreSQL, runs weekly demand forecasting models, and surfaces actionable spending insights.</p>
-        <ul class="project-metrics">
-          <li>Flask API + GroupMe Bots integration</li>
-          <li>PostgreSQL data pipeline with historical aggregation</li>
-          <li>Linear regression forecasting models</li>
-          <li>30+ minutes coordination time saved weekly</li>
-        </ul>
-        <a href="https://github.com/jsandau/GroceryBot2.0" class="project-link">View on GitHub →</a>
-      </article>
+      <div class="project-grid">
 
-      <article class="project">
-        <div class="project-meta">
-          <span class="project-tag">Data Analysis · Analytics</span>
-          <span class="project-year">2025</span>
+        <div class="project-card project-card--featured">
+          <div class="project-header">
+            <div class="project-header-left">
+              <span class="project-tag">Full-Stack · AI · CRM</span>
+              <h3 class="project-title">SiteIQ — AI Website Audit Platform</h3>
+            </div>
+            <div class="project-header-right">
+              <span class="featured-badge">Featured</span>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+          <p class="project-desc">A full-stack AI lead generation tool that audits websites in under 60 seconds, scores SEO, UX, and conversion performance, then automatically creates HubSpot contacts and deals — turning anonymous visitors into CRM-ready leads.</p>
+          <div class="stack-chips">
+            <span class="chip">Next.js</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">Prisma</span>
+            <span class="chip">LLaMA 3.3</span>
+            <span class="chip">HubSpot API</span>
+            <span class="chip">Puppeteer</span>
+          </div>
+          <div class="project-metrics-row">
+            <span class="metric-chip">&lt; 60s audit time</span>
+            <span class="metric-chip">Auto HubSpot contact + deal creation</span>
+            <span class="metric-chip">Lead gating + report storage</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ai-site-audit-production.up.railway.app/" target="_blank" class="project-link">View Live Demo →</a>
+            <a href="https://github.com/jsandau/ai-site-audit" target="_blank" class="project-link">GitHub →</a>
+          </div>
         </div>
-        <h3 class="project-title">Grocery Analysis Dashboard</h3>
-        <p class="project-desc">End-to-end data analysis pipeline: raw PDF invoices → structured SQL database → interactive Tableau dashboard. Cleaned 7 weeks of transaction data and built KPI visualizations for cost analysis and budget optimization.</p>
-        <ul class="project-metrics">
-          <li>PDF invoice extraction and data cleaning</li>
-          <li>PostgreSQL transaction modeling</li>
-          <li>Per-item demand and cost driver analysis</li>
-          <li>Category spend trends and forecasting</li>
-        </ul>
-        <a href="https://github.com/jsandau/grocery-analysis-dashboard" class="project-link">View on GitHub →</a>
-      </article>
 
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-header-left">
+              <span class="project-tag">Automation · Data Pipeline</span>
+              <h3 class="project-title">Grocery Request Bot</h3>
+            </div>
+            <div class="project-header-right">
+              <span class="project-year">2025</span>
+            </div>
+          </div>
+          <p class="project-desc">A Flask-based automation system for a 40-person organization. Members submit grocery requests via GroupMe; the bot logs entries to PostgreSQL, runs weekly demand forecasting, and surfaces actionable spending insights.</p>
+          <div class="stack-chips">
+            <span class="chip">Flask</span>
+            <span class="chip">Python</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">GroupMe API</span>
+            <span class="chip">Scikit-learn</span>
+          </div>
+          <div class="project-metrics-row">
+            <span class="metric-chip">40+ users</span>
+            <span class="metric-chip">30+ min/week automated</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/jsandau/GroceryBot2.0" target="_blank" class="project-link">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-header-left">
+              <span class="project-tag">Data Analysis · Analytics</span>
+              <h3 class="project-title">Grocery Analysis Dashboard</h3>
+            </div>
+            <div class="project-header-right">
+              <span class="project-year">2025</span>
+            </div>
+          </div>
+          <p class="project-desc">End-to-end analytics pipeline: raw PDF invoices → structured PostgreSQL database → interactive Tableau dashboard. Cleaned 7 weeks of transaction data and built KPI visualizations for cost analysis and budget planning.</p>
+          <div class="stack-chips">
+            <span class="chip">Python</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Tableau</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/jsandau/grocery-analysis-dashboard" target="_blank" class="project-link">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
