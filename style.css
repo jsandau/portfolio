@@ -190,7 +190,7 @@ section {
 }
 
 .home-tagline {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   letter-spacing: 0.08em;
   color: var(--accent);
   margin-bottom: 0.8rem;
@@ -198,8 +198,8 @@ section {
 }
 
 .home-role {
-  font-size: 0.85rem;
-  color: var(--ink-light);
+  font-size: 1rem;
+  color: var(--ink);
   margin-bottom: 1.5rem;
   line-height: 1.5;
 }
