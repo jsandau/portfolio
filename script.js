@@ -73,7 +73,7 @@
   const revealElements = [
     '.section-label',
     '.about-grid',
-    '.project',
+    '.project-card',
     '.contact-grid',
     'footer',
   ];
