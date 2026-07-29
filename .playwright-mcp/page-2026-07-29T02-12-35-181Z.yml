@@ -1,0 +1,126 @@
+- generic [active] [ref=f2e1]:
+  - navigation [ref=f2e2]:
+    - link "JS" [ref=f2e3] [cursor=pointer]:
+      - /url: "#home"
+    - list [ref=f2e4]:
+      - listitem [ref=f2e5]:
+        - link "Experience" [ref=f2e6] [cursor=pointer]:
+          - /url: "#experience"
+      - listitem [ref=f2e7]:
+        - link "Projects" [ref=f2e8] [cursor=pointer]:
+          - /url: "#projects"
+      - listitem [ref=f2e9]:
+        - link "About" [ref=f2e10] [cursor=pointer]:
+          - /url: "#about"
+      - listitem [ref=f2e11]:
+        - link "Contact" [ref=f2e12] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=f2e14]:
+    - generic [ref=f2e15]:
+      - heading "Jacob Sandau" [level=1] [ref=f2e16]
+      - paragraph [ref=f2e17]: I build the systems layer where CRM data, automation, and analytics meet — pipelines, scoring models, and AI workflows that GTM teams can actually trust.
+      - paragraph [ref=f2e18]: Data Specialist Intern, Medical Alley — Minneapolis, MN
+      - generic [ref=f2e20]:
+        - link "Email me" [ref=f2e21] [cursor=pointer]:
+          - /url: mailto:jsandau@sandau.com
+        - link "GitHub" [ref=f2e22] [cursor=pointer]:
+          - /url: https://github.com/jsandau
+        - link "LinkedIn" [ref=f2e23] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/jacob-sandau-204743233/
+        - link "Resume" [ref=f2e24] [cursor=pointer]:
+          - /url: Jacob-Sandau-Resume-2026.pdf
+    - img "Jacob Sandau" [ref=f2e26]
+  - generic [ref=f2e28]:
+    - generic [ref=f2e29]: Experience
+    - generic [ref=f2e30]:
+      - generic [ref=f2e31]: Data Specialist Intern — Medical Alley
+      - generic [ref=f2e33]: May 2026 – Present · Golden Valley, MN · Hybrid
+    - paragraph [ref=f2e34]: Building the AI, GTM, and RevOps infrastructure powering how Medical Alley tracks and manages its member base — spanning data governance, financial reconciliation, reporting, and AI workflow automation across sales, finance, partnerships, and marketing.
+    - generic [ref=f2e35]:
+      - generic [ref=f2e36]:
+        - generic [ref=f2e37]: "01"
+        - paragraph [ref=f2e39]:
+          - strong [ref=f2e40]: Cut LLM spend roughly in half
+          - text: on a 300+ account AI grading system — architected a dual-agent pipeline in HubSpot to score renewal account health, then replaced a redundant model call with deterministic branch logic.
+      - generic [ref=f2e41]:
+        - generic [ref=f2e42]: "02"
+        - paragraph [ref=f2e44]:
+          - strong [ref=f2e45]: Reconciled a $3.1M renewal pipeline
+          - text: across 321 deals — built a QuickBooks-to-HubSpot matching pipeline in Power Query, recovering 35+ missing deals and resolving 100+ data mismatches between systems.
+      - generic [ref=f2e46]:
+        - generic [ref=f2e47]: "03"
+        - paragraph [ref=f2e49]:
+          - strong [ref=f2e50]: Built the model behind retention triage
+          - text: — a tier-normalized, decay-weighted engagement score across 3 membership segments, combined with AI risk grades into a 4×3 decision matrix.
+  - generic [ref=f2e52]:
+    - generic [ref=f2e53]: Projects
+    - generic [ref=f2e54]:
+      - generic [ref=f2e55]:
+        - generic [ref=f2e56]:
+          - heading "SiteIQ — AI Website Audit Platform" [level=3] [ref=f2e57]
+          - generic [ref=f2e58]: "2026"
+        - paragraph [ref=f2e59]: Turns anonymous site visitors into CRM-ready leads in under 60 seconds.
+        - paragraph [ref=f2e60]: Full-stack AI audit tool that scores SEO, UX, and conversion performance, then automatically creates HubSpot contacts and deals from the results.
+        - generic [ref=f2e61]:
+          - generic [ref=f2e62]: Next.js·
+          - generic [ref=f2e63]: TypeScript·
+          - generic [ref=f2e64]: PostgreSQL·
+          - generic [ref=f2e65]: Prisma·
+          - generic [ref=f2e66]: LLaMA 3.3·
+          - generic [ref=f2e67]: HubSpot API·
+          - generic [ref=f2e68]: Puppeteer
+        - generic [ref=f2e69]:
+          - link "Live demo →" [ref=f2e70] [cursor=pointer]:
+            - /url: https://ai-site-audit-production.up.railway.app/
+          - link "GitHub →" [ref=f2e71] [cursor=pointer]:
+            - /url: https://github.com/jsandau/ai-site-audit
+      - generic [ref=f2e72]:
+        - generic [ref=f2e73]:
+          - heading "Grocery Request Bot" [level=3] [ref=f2e74]
+          - generic [ref=f2e75]: "2025"
+        - paragraph [ref=f2e76]: Automated 30+ minutes a week of manual coordination for a 40-person org.
+        - paragraph [ref=f2e77]: Flask-based system that logs GroupMe requests to Postgres, runs weekly demand forecasting, and surfaces actionable spending insights.
+        - generic [ref=f2e78]:
+          - generic [ref=f2e79]: Flask·
+          - generic [ref=f2e80]: Python·
+          - generic [ref=f2e81]: PostgreSQL·
+          - generic [ref=f2e82]: GroupMe API·
+          - generic [ref=f2e83]: Scikit-learn
+        - link "GitHub →" [ref=f2e85] [cursor=pointer]:
+          - /url: https://github.com/jsandau/GroceryBot2.0
+      - generic [ref=f2e86]:
+        - generic [ref=f2e87]:
+          - heading "Grocery Analysis Dashboard" [level=3] [ref=f2e88]
+          - generic [ref=f2e89]: "2025"
+        - paragraph [ref=f2e90]: Turned 7 weeks of raw PDF invoices into a live budgeting dashboard.
+        - paragraph [ref=f2e91]: "End-to-end pipeline: PDF invoices to a structured Postgres database to an interactive Tableau dashboard with KPI visualizations for cost analysis."
+        - generic [ref=f2e92]:
+          - generic [ref=f2e93]: Python·
+          - generic [ref=f2e94]: PostgreSQL·
+          - generic [ref=f2e95]: SQL·
+          - generic [ref=f2e96]: Tableau
+        - link "GitHub →" [ref=f2e98] [cursor=pointer]:
+          - /url: https://github.com/jsandau/grocery-analysis-dashboard
+  - generic [ref=f2e100]:
+    - generic [ref=f2e101]: About
+    - paragraph [ref=f2e102]:
+      - text: I'm a junior at the University of Minnesota, Twin Cities, studying
+      - strong [ref=f2e103]: Data Science
+      - text: with a minor in Computer Science, graduating 2027. I care about the unglamorous infrastructure that makes GTM teams trust their numbers — CRM integrations, automation, and the analytics layer sitting on top. Based in Minneapolis.
+  - generic [ref=f2e104]:
+    - generic [ref=f2e105]:
+      - generic [ref=f2e106]: Contact
+      - heading "Open to analytics engineering and RevOps roles." [level=2] [ref=f2e107]
+      - paragraph [ref=f2e108]: Also open to interesting technical problems in between — CRM systems, data pipelines, AI workflows. I respond quickly.
+      - generic [ref=f2e109]:
+        - link "jsandau@sandau.com" [ref=f2e110] [cursor=pointer]:
+          - /url: mailto:jsandau@sandau.com
+        - generic [ref=f2e111]:
+          - link "LinkedIn" [ref=f2e112] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/jacob-sandau-204743233/
+          - link "GitHub" [ref=f2e113] [cursor=pointer]:
+            - /url: https://github.com/jsandau
+    - generic [ref=f2e114]:
+      - paragraph [ref=f2e115]: © 2026 Jacob Sandau
+      - link "Back to top ↑" [ref=f2e116] [cursor=pointer]:
+        - /url: "#home"

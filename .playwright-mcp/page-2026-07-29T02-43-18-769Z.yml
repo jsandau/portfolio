@@ -1,0 +1,259 @@
+- generic [active] [ref=f8e1]:
+  - navigation [ref=f8e2]:
+    - link "JS" [ref=f8e3] [cursor=pointer]:
+      - /url: "#home"
+    - list [ref=f8e4]:
+      - listitem [ref=f8e5]:
+        - link "Skills" [ref=f8e6] [cursor=pointer]:
+          - /url: "#skills"
+      - listitem [ref=f8e7]:
+        - link "Experience" [ref=f8e8] [cursor=pointer]:
+          - /url: "#experience"
+      - listitem [ref=f8e9]:
+        - link "Projects" [ref=f8e10] [cursor=pointer]:
+          - /url: "#projects"
+      - listitem [ref=f8e11]:
+        - link "About" [ref=f8e12] [cursor=pointer]:
+          - /url: "#about"
+      - listitem [ref=f8e13]:
+        - link "Contact" [ref=f8e14] [cursor=pointer]:
+          - /url: "#contact"
+    - button "Toggle menu" [ref=f8e15] [cursor=pointer]
+  - generic [ref=f8e19]:
+    - generic [ref=f8e20]:
+      - heading "Jacob Sandau" [level=1] [ref=f8e21]
+      - paragraph [ref=f8e22]: I build the systems layer where CRM data, automation, and analytics meet — pipelines, scoring models, and AI workflows that GTM teams can actually trust.
+      - paragraph [ref=f8e23]: Data Specialist Intern, Medical Alley — Minneapolis, MN
+      - generic [ref=f8e25]:
+        - link "Email me" [ref=f8e26] [cursor=pointer]:
+          - /url: mailto:jsandau@sandau.com
+        - link "GitHub" [ref=f8e27] [cursor=pointer]:
+          - /url: https://github.com/jsandau
+        - link "LinkedIn" [ref=f8e28] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/jacob-sandau-204743233/
+        - link "Resume" [ref=f8e29] [cursor=pointer]:
+          - /url: Jacob-Sandau-Resume-2026.pdf
+    - img "Jacob Sandau" [ref=f8e31]
+  - generic [ref=f8e33]:
+    - generic [ref=f8e34]: Skills
+    - generic [ref=f8e35]:
+      - generic [ref=f8e36]:
+        - heading "Data & Analytics" [level=3] [ref=f8e37]
+        - generic [ref=f8e38]:
+          - generic [ref=f8e39]: SQL
+          - generic [ref=f8e40]: Python
+          - generic [ref=f8e41]: R
+          - generic [ref=f8e42]: Java
+          - generic [ref=f8e43]: Tableau
+          - generic [ref=f8e44]: ETL
+          - generic [ref=f8e45]: Scikit-learn
+          - generic [ref=f8e46]: Pandas
+      - generic [ref=f8e47]:
+        - heading "Automation & Engineering" [level=3] [ref=f8e48]
+        - generic [ref=f8e49]:
+          - generic [ref=f8e50]: GitHub
+          - generic [ref=f8e51]: APIs
+          - generic [ref=f8e52]: Webhooks
+          - generic [ref=f8e53]: Data Scraping
+          - generic [ref=f8e54]: UiPath
+          - generic [ref=f8e55]: Postman
+          - generic [ref=f8e56]: HubSpot API
+          - generic [ref=f8e57]: CRM Automation
+          - generic [ref=f8e58]: Flask
+      - generic [ref=f8e59]:
+        - heading "Revenue & GTM Tools" [level=3] [ref=f8e60]
+        - generic [ref=f8e61]:
+          - generic [ref=f8e62]: HubSpot CRM
+          - generic [ref=f8e63]: Salesforce CRM
+          - generic [ref=f8e64]: Workflow Automation
+          - generic [ref=f8e65]: Pipeline Management
+          - generic [ref=f8e66]: Lead Scoring
+          - generic [ref=f8e67]: HubSpot Development
+          - generic [ref=f8e68]: CRM Data Quality
+          - generic [ref=f8e69]: Data Enrichment
+          - generic [ref=f8e70]: Reporting & Dashboards
+      - generic [ref=f8e71]:
+        - heading "Full-Stack & AI" [level=3] [ref=f8e72]
+        - generic [ref=f8e73]:
+          - generic [ref=f8e74]: AI Agents
+          - generic [ref=f8e75]: Claude Code
+          - generic [ref=f8e76]: MCP
+          - generic [ref=f8e77]: TypeScript
+          - generic [ref=f8e78]: React
+          - generic [ref=f8e79]: PostgreSQL
+          - generic [ref=f8e80]: Prisma
+          - generic [ref=f8e81]: REST APIs
+          - generic [ref=f8e82]: Prompt Engineering
+          - generic [ref=f8e83]: Groq
+          - generic [ref=f8e84]: Puppeteer
+  - generic [ref=f8e86]:
+    - generic [ref=f8e87]: Experience
+    - generic [ref=f8e88]:
+      - generic [ref=f8e89]: Data Specialist Intern — Medical Alley
+      - generic [ref=f8e91]: May 2026 – Present · Golden Valley, MN · Hybrid
+    - paragraph [ref=f8e92]: Building the AI, GTM, and RevOps infrastructure powering how Medical Alley tracks and manages its member base — spanning data governance, financial reconciliation, reporting, and AI workflow automation across sales, finance, partnerships, and marketing.
+    - generic [ref=f8e93]:
+      - generic [ref=f8e94]:
+        - generic [ref=f8e95]: "01"
+        - paragraph [ref=f8e97]:
+          - strong [ref=f8e98]:
+            - text: Cut LLM spend
+            - generic [ref=f8e99]: ~0%
+          - text: on a
+          - generic [ref=f8e100]: 0+
+          - text: account AI grading system — architected a dual-agent pipeline in HubSpot to score renewal account health, then replaced a redundant model call with deterministic branch logic.
+      - generic [ref=f8e101]:
+        - generic [ref=f8e102]: "02"
+        - paragraph [ref=f8e104]:
+          - strong [ref=f8e105]:
+            - text: Reconciled a
+            - generic [ref=f8e106]: $0.0M
+            - text: renewal pipeline
+          - text: across
+          - generic [ref=f8e107]: "0"
+          - text: deals — built a QuickBooks-to-HubSpot matching pipeline in Power Query, recovering
+          - generic [ref=f8e108]: 0+
+          - text: missing deals and resolving
+          - generic [ref=f8e109]: 0+
+          - text: data mismatches between systems.
+      - generic [ref=f8e110]:
+        - generic [ref=f8e111]: "03"
+        - paragraph [ref=f8e113]:
+          - strong [ref=f8e114]: Built the model behind retention triage
+          - text: — a tier-normalized, decay-weighted engagement score across
+          - generic [ref=f8e115]: "0"
+          - text: membership segments, combined with AI risk grades into a
+          - generic [ref=f8e116]: 4×3
+          - text: decision matrix.
+    - generic [ref=f8e117]:
+      - figure "4×3 Retention Risk Matrix" [ref=f8e118]:
+        - paragraph [ref=f8e120]: AI risk grade × engagement tier, triaging 300+ renewal accounts into monitor / review / escalate actions.
+        - 'img "4×3 retention risk decision matrix A grid mapping AI risk grade — low, elevated, high, critical — against engagement tier — high, medium, low — into three triage actions: monitor, review, escalate." [ref=f8e121]':
+          - generic [ref=f8e122]: AI Risk Grade
+          - generic [ref=f8e123]: Low
+          - generic [ref=f8e124]: Elevated
+          - generic [ref=f8e125]: High
+          - generic [ref=f8e126]: Critical
+          - generic [ref=f8e127]: High
+          - generic [ref=f8e128]: Medium
+          - generic [ref=f8e129]: Low
+          - generic [ref=f8e130]: Engagement Tier
+          - generic: Monitor
+          - generic: Monitor
+          - generic: Review
+          - generic: Review
+          - generic: Monitor
+          - generic: Review
+          - generic: Review
+          - generic: Escalate
+          - generic: Review
+          - generic: Review
+          - generic: Escalate
+          - generic: Escalate
+          - generic [ref=f8e143]: Lower priority
+          - generic [ref=f8e149]: Higher priority
+      - figure "Pipeline Schema Consolidation" [ref=f8e150]:
+        - paragraph [ref=f8e152]: Re-architected the pipeline schema from 11 fragmented stages to a normalized 7-stage model across three business units, reducing reporting drift and stage-mapping overhead.
+        - img "Pipeline schema consolidation, 11 stages to 7 Eleven fragmented pipeline stages grouped and normalized into seven consolidated stages across three business units." [ref=f8e153]:
+          - generic [ref=f8e154]: 11 Fragmented Stages
+          - generic [ref=f8e163]:
+            - generic: "1"
+            - generic: "2"
+            - generic: "3"
+            - generic: "4"
+            - generic: "5"
+            - generic: "6"
+            - generic: "7"
+            - generic: "8"
+            - generic: "9"
+            - generic: "10"
+            - generic: "11"
+          - generic [ref=f8e175]:
+            - generic: A
+            - generic: B
+            - generic: C
+            - generic: D
+            - generic: E
+            - generic: F
+            - generic: G
+          - generic [ref=f8e183]: 7 Normalized Stages · 3 Business Units
+  - generic [ref=f8e185]:
+    - generic [ref=f8e186]: Projects
+    - generic [ref=f8e187]:
+      - generic [ref=f8e188]:
+        - generic [ref=f8e189]:
+          - heading "SiteIQ — AI Website Audit Platform" [level=3] [ref=f8e190]
+          - generic [ref=f8e191]: "2026"
+        - paragraph [ref=f8e192]: Turns anonymous site visitors into CRM-ready leads in under 60 seconds.
+        - paragraph [ref=f8e193]: Full-stack AI audit tool that scores SEO, UX, and conversion performance, then automatically creates HubSpot contacts and deals from the results.
+        - generic [ref=f8e194]:
+          - generic [ref=f8e195]: Next.js·
+          - generic [ref=f8e196]: TypeScript·
+          - generic [ref=f8e197]: PostgreSQL·
+          - generic [ref=f8e198]: Prisma·
+          - generic [ref=f8e199]: LLaMA 3.3·
+          - generic [ref=f8e200]: HubSpot API·
+          - generic [ref=f8e201]: Puppeteer
+        - generic [ref=f8e202]:
+          - link "Live demo →" [ref=f8e203] [cursor=pointer]:
+            - /url: https://ai-site-audit-production.up.railway.app/
+            - text: Live demo
+            - generic [ref=f8e204]: →
+          - link "GitHub →" [ref=f8e205] [cursor=pointer]:
+            - /url: https://github.com/jsandau/ai-site-audit
+            - text: GitHub
+            - generic [ref=f8e206]: →
+      - generic [ref=f8e207]:
+        - generic [ref=f8e208]:
+          - heading "Grocery Request Bot" [level=3] [ref=f8e209]
+          - generic [ref=f8e210]: "2025"
+        - paragraph [ref=f8e211]: Automated 30+ minutes a week of manual coordination for a 40-person org.
+        - paragraph [ref=f8e212]: Flask-based system that logs GroupMe requests to Postgres, runs weekly demand forecasting, and surfaces actionable spending insights.
+        - generic [ref=f8e213]:
+          - generic [ref=f8e214]: Flask·
+          - generic [ref=f8e215]: Python·
+          - generic [ref=f8e216]: PostgreSQL·
+          - generic [ref=f8e217]: GroupMe API·
+          - generic [ref=f8e218]: Scikit-learn
+        - link "GitHub →" [ref=f8e220] [cursor=pointer]:
+          - /url: https://github.com/jsandau/GroceryBot2.0
+          - text: GitHub
+          - generic [ref=f8e221]: →
+      - generic [ref=f8e222]:
+        - generic [ref=f8e223]:
+          - heading "Grocery Analysis Dashboard" [level=3] [ref=f8e224]
+          - generic [ref=f8e225]: "2025"
+        - paragraph [ref=f8e226]: Turned 7 weeks of raw PDF invoices into a live budgeting dashboard.
+        - paragraph [ref=f8e227]: "End-to-end pipeline: PDF invoices to a structured Postgres database to an interactive Tableau dashboard with KPI visualizations for cost analysis."
+        - generic [ref=f8e228]:
+          - generic [ref=f8e229]: Python·
+          - generic [ref=f8e230]: PostgreSQL·
+          - generic [ref=f8e231]: SQL·
+          - generic [ref=f8e232]: Tableau
+        - link "GitHub →" [ref=f8e234] [cursor=pointer]:
+          - /url: https://github.com/jsandau/grocery-analysis-dashboard
+          - text: GitHub
+          - generic [ref=f8e235]: →
+  - generic [ref=f8e237]:
+    - generic [ref=f8e238]: About
+    - paragraph [ref=f8e239]:
+      - text: I'm a junior at the University of Minnesota, Twin Cities, studying
+      - strong [ref=f8e240]: Data Science
+      - text: with a minor in Computer Science, graduating 2027. I care about the unglamorous infrastructure that makes GTM teams trust their numbers — CRM integrations, automation, and the analytics layer sitting on top. Based in Minneapolis.
+  - generic [ref=f8e241]:
+    - generic [ref=f8e242]:
+      - generic [ref=f8e243]: Contact
+      - heading "Open to analytics engineering and RevOps roles." [level=2] [ref=f8e244]
+      - paragraph [ref=f8e245]: Also open to interesting technical problems in between — CRM systems, data pipelines, AI workflows. I respond quickly.
+      - generic [ref=f8e246]:
+        - link "jsandau@sandau.com" [ref=f8e247] [cursor=pointer]:
+          - /url: mailto:jsandau@sandau.com
+        - generic [ref=f8e248]:
+          - link "LinkedIn" [ref=f8e249] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/jacob-sandau-204743233/
+          - link "GitHub" [ref=f8e250] [cursor=pointer]:
+            - /url: https://github.com/jsandau
+    - generic [ref=f8e251]:
+      - paragraph [ref=f8e252]: © 2026 Jacob Sandau
+      - link "Back to top ↑" [ref=f8e253] [cursor=pointer]:
+        - /url: "#home"

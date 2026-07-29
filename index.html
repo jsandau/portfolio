@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jacob Sandau Portfolio</title>
+  <title>Jacob Sandau — Analytics Engineering &amp; RevOps</title>
+  <meta name="description" content="Jacob Sandau builds data systems, CRM automation, and AI workflows at the intersection of analytics engineering and RevOps." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,137 +13,276 @@
   <nav id="nav">
     <a href="#home" class="nav-logo">JS</a>
     <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <button class="nav-toggle" aria-label="Toggle menu">
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span>
     </button>
   </nav>
 
   <!-- HOME -->
   <section id="home">
-    <div class="home-inner">
-      <div class="home-text">
-        <h1 class="home-title">Jacob Sandau</h1>
-        <p class="home-tagline">Data Systems · GTM Engineering · AI Automation </p>
-        <p class="home-role">
-         Data Specialist Intern @ Medical Alley
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-name">Jacob Sandau</h1>
+        <p class="hero-lead">
+          I build the systems layer where CRM data, automation, and analytics meet — pipelines, scoring models, and AI workflows that GTM teams can actually trust.
         </p>
-        <p class="home-description">
-          Based in Minneapolis. Junior at University of Minnesota, Twin Cities — B.A. Data Science, Minor Computer Science, Graduating 2027. I build at the intersection of data, AI, and GTM engineering: Automation tools, CRM integrations, and full-stack systems that connect data to revenue workflows.<br><br>This summer I'm with <a href="https://medicalalley.org" target="_blank" class="inline-link">Medical Alley</a> as a Data Specialist Intern, developing CRM data governance, analytics, reporting, and AI workflow automation across marketing, sales, partnerships, and operations. Longer term I'm interested in GTM engineering and RevOps → specifically the systems layer where CRM data, automation, and analytics intersect.
-        <div class="home-stats">
-          <a href="mailto:jsandau@sandau.com" class="stat-item">
-            <span class="stat-arrow">→</span>
-            <span class="stat-text">Email me</span>
-          </a>
-          <a href="https://github.com/jsandau" target="_blank" class="stat-item">
-            <span class="stat-arrow">→</span>
-            <span class="stat-text">GitHub</span>
-          </a>
-          <a href="https://www.linkedin.com/in/jacob-sandau-204743233/" target="_blank" class="stat-item">
-            <span class="stat-arrow">→</span>
-            <span class="stat-text">LinkedIn</span>
-          </a>
-          <a href="Jacob-Sandau-Resume-2026.pdf" target="_blank" class="stat-item">
-            <span class="stat-arrow">→</span>
-            <span class="stat-text">Resume</span>
-          </a>
+        <p class="hero-role">
+          <span class="dot"></span>
+          Data Specialist Intern, Medical Alley — Minneapolis, MN
+        </p>
+        <div class="hero-actions">
+          <a href="mailto:jsandau@sandau.com" class="btn btn--primary">Email me</a>
+          <a href="https://github.com/jsandau" target="_blank" rel="noopener" class="btn btn--ghost">GitHub</a>
+          <a href="https://www.linkedin.com/in/jacob-sandau-204743233/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
+          <a href="Jacob-Sandau-Resume-2026.pdf" target="_blank" rel="noopener" class="btn btn--ghost">Resume</a>
         </div>
       </div>
-      <div class="home-image">
-        <img src="Jacob Sandu-070626-3-lowres-sq.jpg" alt="Jacob Sandau">
+      <div class="hero-photo">
+        <div class="hero-photo-glow"></div>
+        <div class="hero-photo-frame">
+          <img src="Jacob Sandu-070626-3-lowres-sq.jpg" alt="Jacob Sandau" width="240" height="240" />
+        </div>
       </div>
     </div>
   </section>
-  
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <span class="eyebrow">Experience</span>
+
+      <div class="xp-header">
+        <div>
+          <div class="xp-role">Data Specialist Intern <span class="xp-org">— Medical Alley</span></div>
+        </div>
+        <div class="xp-meta">May 2026 – Present · Golden Valley, MN · Hybrid</div>
+      </div>
+
+      <p class="xp-summary">
+        Building the AI, GTM, and RevOps infrastructure powering how Medical Alley tracks and manages its member base — spanning data governance, financial reconciliation, reporting, and AI workflow automation across sales, finance, partnerships, and marketing.
+      </p>
+
+      <div class="xp-outcomes">
+        <div class="xp-outcome">
+          <span class="xp-outcome-index">01</span>
+          <div class="xp-outcome-body">
+            <p><strong>Cut LLM spend <span class="metric" data-countup data-target="50" data-prefix="~" data-suffix="%">~0%</span></strong> on a <span class="metric" data-countup data-target="300" data-suffix="+">0+</span> account AI grading system — architected a dual-agent pipeline in HubSpot to score renewal account health, then replaced a redundant model call with deterministic branch logic.</p>
+          </div>
+        </div>
+        <div class="xp-outcome">
+          <span class="xp-outcome-index">02</span>
+          <div class="xp-outcome-body">
+            <p><strong>Reconciled a <span class="metric" data-countup data-target="3.1" data-decimals="1" data-prefix="$" data-suffix="M">$0.0M</span> renewal pipeline</strong> across <span class="metric" data-countup data-target="321">0</span> deals — built a QuickBooks-to-HubSpot matching pipeline in Power Query, recovering <span class="metric" data-countup data-target="35" data-suffix="+">0+</span> missing deals and resolving <span class="metric" data-countup data-target="100" data-suffix="+">0+</span> data mismatches between systems.</p>
+          </div>
+        </div>
+        <div class="xp-outcome">
+          <span class="xp-outcome-index">03</span>
+          <div class="xp-outcome-body">
+            <p><strong>Built the model behind retention triage</strong> — a tier-normalized, decay-weighted engagement score across <span class="metric" data-countup data-target="3">0</span> membership segments, combined with AI risk grades into a <span class="metric">4×3</span> decision matrix.</p>
+          </div>
+        </div>
+
+        <figure class="diagram-card">
+          <figcaption class="diagram-title">4×3 Retention Risk Matrix</figcaption>
+          <p class="diagram-note">AI risk grade × engagement score across 300+ renewal accounts — disagreement between the two signals is the trigger for review, not an error. Hover a cell for detail.</p>
+          <svg viewBox="0 0 640 236" role="img" aria-labelledby="matrixTitle matrixDesc">
+            <title id="matrixTitle">4×3 retention risk decision matrix</title>
+            <desc id="matrixDesc">A grid mapping AI risk grade — low risk, neutral, at risk, insufficient data — against engagement score — high, medium, low — into five triage states: healthy, watch/verify, elevated, urgent, and expected/informational.</desc>
+
+            <text class="matrix-heading" x="395" y="16">Engagement Score</text>
+            <text class="matrix-axis" x="245" y="40" text-anchor="middle">High</text>
+            <text class="matrix-axis" x="395" y="40" text-anchor="middle">Medium</text>
+            <text class="matrix-axis" x="545" y="40" text-anchor="middle">Low</text>
+
+            <text class="matrix-axis" x="156" y="79" text-anchor="end">Low Risk</text>
+            <text class="matrix-axis" x="156" y="121" text-anchor="end">Neutral</text>
+            <text class="matrix-axis" x="156" y="163" text-anchor="end">At Risk</text>
+            <text class="matrix-axis" x="156" y="205" text-anchor="end">Insufficient Data</text>
+            <text class="matrix-heading" x="16" y="138" transform="rotate(-90 16 138)">AI Risk Grade</text>
+
+            <!-- row: Low Risk Grade -->
+            <g><title>Low Risk, High Engagement — Healthy — maintain</title>
+              <rect class="matrix-cell matrix-cell--good" x="173" y="57" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--good" x="245" y="79">Healthy</text>
+            </g>
+            <g><title>Low Risk, Medium Engagement — Quietly healthy</title>
+              <rect class="matrix-cell matrix-cell--good" x="323" y="57" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--good" x="395" y="79">Healthy</text>
+            </g>
+            <g><title>Low Risk, Low Engagement — Quietly healthy or stale data — verify</title>
+              <rect class="matrix-cell matrix-cell--warning" x="473" y="57" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--warning" x="545" y="79">Verify</text>
+            </g>
+
+            <!-- row: Neutral -->
+            <g><title>Neutral, High Engagement — Active but unproven — watch</title>
+              <rect class="matrix-cell matrix-cell--warning" x="173" y="99" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--warning" x="245" y="121">Watch</text>
+            </g>
+            <g><title>Neutral, Medium Engagement — Middle ground — true neutral</title>
+              <rect class="matrix-cell matrix-cell--info" x="323" y="99" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--info" x="395" y="121">Neutral</text>
+            </g>
+            <g><title>Neutral, Low Engagement — Stale data or early churn pattern — verify</title>
+              <rect class="matrix-cell matrix-cell--warning" x="473" y="99" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--warning" x="545" y="121">Verify</text>
+            </g>
+
+            <!-- row: At Risk Grade -->
+            <g><title>At Risk, High Engagement — Engaged but troubled — highest priority</title>
+              <rect class="matrix-cell matrix-cell--critical" x="173" y="141" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--critical" x="245" y="163">Highest Priority</text>
+            </g>
+            <g><title>At Risk, Medium Engagement — Moderately engaged but troubled — second priority</title>
+              <rect class="matrix-cell matrix-cell--serious" x="323" y="141" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--serious" x="395" y="163">2nd Priority</text>
+            </g>
+            <g><title>At Risk, Low Engagement — Disengaging — classic churn pattern</title>
+              <rect class="matrix-cell matrix-cell--critical" x="473" y="141" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--critical" x="545" y="163">Churn Risk</text>
+            </g>
+
+            <!-- row: Insufficient Data -->
+            <g><title>Insufficient Data, High Engagement — Very strange — verify record</title>
+              <rect class="matrix-cell matrix-cell--warning" x="173" y="183" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--warning" x="245" y="205">Verify</text>
+            </g>
+            <g><title>Insufficient Data, Medium Engagement — Somewhat surprising — verify record</title>
+              <rect class="matrix-cell matrix-cell--warning" x="323" y="183" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--warning" x="395" y="205">Verify</text>
+            </g>
+            <g><title>Insufficient Data, Low Engagement — Expected — no action needed</title>
+              <rect class="matrix-cell matrix-cell--info" x="473" y="183" width="144" height="36" rx="4" />
+              <text class="matrix-label matrix-label--info" x="545" y="205">Expected</text>
+            </g>
+          </svg>
+
+          <ul class="matrix-legend">
+            <li><span class="swatch swatch--good"></span>Healthy — no action needed</li>
+            <li><span class="swatch swatch--warning"></span>Watch / verify — check data or monitor</li>
+            <li><span class="swatch swatch--serious"></span>Elevated — needs attention soon</li>
+            <li><span class="swatch swatch--critical"></span>Urgent — act now</li>
+            <li><span class="swatch swatch--info"></span>Expected / informational</li>
+          </ul>
+
+          <p class="diagram-footnote">Engagement Score is a deterministic activity score (meetings, email replies, event attendance, contact breadth), banded within membership tier. AI Risk Grade is an agentic CRM assessment (relationship context, sentiment, renewal signals). The two systems measure different things — disagreement between them is the signal, not an error.</p>
+        </figure>
+
+        <div class="xp-outcome">
+          <span class="xp-outcome-index">04</span>
+          <div class="xp-outcome-body">
+            <p><strong>Consolidated the pipeline schema across <span class="metric" data-countup data-target="3">0</span> business units</strong> — re-architected <span class="metric" data-countup data-target="11">0</span> fragmented stages into a normalized <span class="metric" data-countup data-target="7">0</span>-stage model, reducing reporting drift and stage-mapping overhead.</p>
+          </div>
+        </div>
+
+        <figure class="diagram-card">
+          <figcaption class="diagram-title">Pipeline Schema Consolidation</figcaption>
+          <p class="diagram-note">Before → after view of the stage consolidation, grouped by which fragmented stages rolled into each normalized stage.</p>
+          <svg viewBox="0 0 620 220" role="img" aria-labelledby="pipeTitle pipeDesc">
+            <title id="pipeTitle">Pipeline schema consolidation, 11 stages to 7</title>
+            <desc id="pipeDesc">Eleven fragmented pipeline stages grouped and normalized into seven consolidated stages across three business units.</desc>
+
+            <text class="pipe-caption" x="310" y="18">11 Fragmented Stages</text>
+
+            <line class="pipe-line" x1="30" y1="72" x2="58" y2="150" />
+            <line class="pipe-line" x1="86" y1="72" x2="58" y2="150" />
+            <line class="pipe-line" x1="142" y1="72" x2="142" y2="150" />
+            <line class="pipe-line" x1="198" y1="72" x2="226" y2="150" />
+            <line class="pipe-line" x1="254" y1="72" x2="226" y2="150" />
+            <line class="pipe-line" x1="310" y1="72" x2="310" y2="150" />
+            <line class="pipe-line" x1="366" y1="72" x2="394" y2="150" />
+            <line class="pipe-line" x1="422" y1="72" x2="394" y2="150" />
+            <line class="pipe-line" x1="478" y1="72" x2="478" y2="150" />
+            <line class="pipe-line" x1="534" y1="72" x2="562" y2="150" />
+            <line class="pipe-line" x1="590" y1="72" x2="562" y2="150" />
+
+            <g>
+              <rect class="pipe-node" x="16" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="30" y="65">1</text>
+              <rect class="pipe-node" x="72" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="86" y="65">2</text>
+              <rect class="pipe-node" x="128" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="142" y="65">3</text>
+              <rect class="pipe-node" x="184" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="198" y="65">4</text>
+              <rect class="pipe-node" x="240" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="254" y="65">5</text>
+              <rect class="pipe-node" x="296" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="310" y="65">6</text>
+              <rect class="pipe-node" x="352" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="366" y="65">7</text>
+              <rect class="pipe-node" x="408" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="422" y="65">8</text>
+              <rect class="pipe-node" x="464" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="478" y="65">9</text>
+              <rect class="pipe-node" x="520" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="534" y="65">10</text>
+              <rect class="pipe-node" x="576" y="50" width="28" height="22" rx="4" /><text class="pipe-label" x="590" y="65">11</text>
+            </g>
+
+            <g>
+              <rect class="pipe-node pipe-node--after" x="38" y="150" width="40" height="30" rx="6" /><text class="pipe-label pipe-label--after" x="58" y="169">A</text>
+              <rect class="pipe-node pipe-node--after" x="122" y="150" width="40" height="30" rx="6" /><text class="pipe-label pipe-label--after" x="142" y="169">B</text>
+              <rect class="pipe-node pipe-node--after" x="206" y="150" width="40" height="30" rx="6" /><text class="pipe-label pipe-label--after" x="226" y="169">C</text>
+              <rect class="pipe-node pipe-node--after" x="290" y="150" width="40" height="30" rx="6" /><text class="pipe-label pipe-label--after" x="310" y="169">D</text>
+              <rect class="pipe-node pipe-node--after" x="374" y="150" width="40" height="30" rx="6" /><text class="pipe-label pipe-label--after" x="394" y="169">E</text>
+              <rect class="pipe-node pipe-node--after" x="458" y="150" width="40" height="30" rx="6" /><text class="pipe-label pipe-label--after" x="478" y="169">F</text>
+              <rect class="pipe-node pipe-node--after" x="542" y="150" width="40" height="30" rx="6" /><text class="pipe-label pipe-label--after" x="562" y="169">G</text>
+            </g>
+
+            <text class="pipe-caption" x="310" y="205">7 Normalized Stages · 3 Business Units</text>
+          </svg>
+        </figure>
+      </div>
+    </div>
+  </section>
+
   <!-- PROJECTS -->
   <section id="projects">
-    <div class="section-inner">
-      <div class="section-label">Projects</div>
+    <div class="wrap">
+      <span class="eyebrow">Projects</span>
 
       <div class="project-grid">
 
-        <div class="project-card project-card--featured">
-          <div class="project-header">
-            <div class="project-header-left">
-              <span class="project-tag">Full-Stack · AI · CRM</span>
-              <h3 class="project-title">SiteIQ: AI Website Audit Platform</h3>
-            </div>
-            <div class="project-header-right">
-              <span class="featured-badge">Featured</span>
-              <span class="project-year">2026</span>
-            </div>
+        <div class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">SiteIQ — AI Website Audit Platform</h3>
+            <span class="project-year">2026</span>
           </div>
-          <p class="project-desc">A full-stack AI lead generation tool that audits websites in under 60 seconds, scores SEO, UX, and conversion performance, then automatically creates HubSpot contacts and deals, turning anonymous visitors into CRM-ready leads.</p>
-          <div class="stack-chips">
-            <span class="chip">Next.js</span>
-            <span class="chip">TypeScript</span>
-            <span class="chip">PostgreSQL</span>
-            <span class="chip">Prisma</span>
-            <span class="chip">LLaMA 3.3</span>
-            <span class="chip">HubSpot API</span>
-            <span class="chip">Puppeteer</span>
-          </div>
-          <div class="project-metrics-row">
-            <span class="metric-chip">&lt; 60s audit time</span>
-            <span class="metric-chip">Auto HubSpot contact + deal creation</span>
-            <span class="metric-chip">Lead gating + report storage</span>
+          <p class="project-outcome">Turns anonymous site visitors into CRM-ready leads in under 60 seconds.</p>
+          <p class="project-desc">Full-stack AI audit tool that scores SEO, UX, and conversion performance, then automatically creates HubSpot contacts and deals from the results.</p>
+          <div class="project-stack">
+            <span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Prisma</span><span>LLaMA 3.3</span><span>HubSpot API</span><span>Puppeteer</span>
           </div>
           <div class="project-links">
-            <a href="https://ai-site-audit-production.up.railway.app/" target="_blank" class="project-link">View Live Demo →</a>
-            <a href="https://github.com/jsandau/ai-site-audit" target="_blank" class="project-link">GitHub →</a>
+            <a href="https://ai-site-audit-production.up.railway.app/" target="_blank" rel="noopener" class="project-link">Live demo <span>→</span></a>
+            <a href="https://github.com/jsandau/ai-site-audit" target="_blank" rel="noopener" class="project-link">GitHub <span>→</span></a>
           </div>
         </div>
 
         <div class="project-card">
-          <div class="project-header">
-            <div class="project-header-left">
-              <span class="project-tag">Automation · Data Pipeline</span>
-              <h3 class="project-title">Grocery Request Bot</h3>
-            </div>
-            <div class="project-header-right">
-              <span class="project-year">2025</span>
-            </div>
+          <div class="project-top">
+            <h3 class="project-title">Grocery Request Bot</h3>
+            <span class="project-year">2025</span>
           </div>
-          <p class="project-desc">A Flask-based automation system for a 40-person organization. Members submit grocery requests via GroupMe; the bot logs entries to PostgreSQL, runs weekly demand forecasting, and surfaces actionable spending insights.</p>
-          <div class="stack-chips">
-            <span class="chip">Flask</span>
-            <span class="chip">Python</span>
-            <span class="chip">PostgreSQL</span>
-            <span class="chip">GroupMe API</span>
-            <span class="chip">Scikit-learn</span>
-          </div>
-          <div class="project-metrics-row">
-            <span class="metric-chip">40+ users</span>
-            <span class="metric-chip">30+ min/week automated</span>
+          <p class="project-outcome">Automated 30+ minutes a week of manual coordination for a 40-person org.</p>
+          <p class="project-desc">Flask-based system that logs GroupMe requests to Postgres, runs weekly demand forecasting, and surfaces actionable spending insights.</p>
+          <div class="project-stack">
+            <span>Flask</span><span>Python</span><span>PostgreSQL</span><span>GroupMe API</span><span>Scikit-learn</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/jsandau/GroceryBot2.0" target="_blank" class="project-link">GitHub →</a>
+            <a href="https://github.com/jsandau/GroceryBot2.0" target="_blank" rel="noopener" class="project-link">GitHub <span>→</span></a>
           </div>
         </div>
 
         <div class="project-card">
-          <div class="project-header">
-            <div class="project-header-left">
-              <span class="project-tag">Data Analysis · Analytics</span>
-              <h3 class="project-title">Grocery Analysis Dashboard</h3>
-            </div>
-            <div class="project-header-right">
-              <span class="project-year">2025</span>
-            </div>
+          <div class="project-top">
+            <h3 class="project-title">Grocery Analysis Dashboard</h3>
+            <span class="project-year">2025</span>
           </div>
-          <p class="project-desc">End-to-end analytics pipeline: raw PDF invoices → structured PostgreSQL database → interactive Tableau dashboard. Cleaned 7 weeks of transaction data and built KPI visualizations for cost analysis and budget planning.</p>
-          <div class="stack-chips">
-            <span class="chip">Python</span>
-            <span class="chip">PostgreSQL</span>
-            <span class="chip">SQL</span>
-            <span class="chip">Tableau</span>
+          <p class="project-outcome">Turned 7 weeks of raw PDF invoices into a live budgeting dashboard.</p>
+          <p class="project-desc">End-to-end pipeline: PDF invoices to a structured Postgres database to an interactive Tableau dashboard with KPI visualizations for cost analysis.</p>
+          <div class="project-stack">
+            <span>Python</span><span>PostgreSQL</span><span>SQL</span><span>Tableau</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/jsandau/grocery-analysis-dashboard" target="_blank" class="project-link">GitHub →</a>
+            <a href="https://github.com/jsandau/grocery-analysis-dashboard" target="_blank" rel="noopener" class="project-link">GitHub <span>→</span></a>
           </div>
         </div>
 
@@ -150,100 +290,60 @@
     </div>
   </section>
 
-  
-<!-- SKILLS -->
-<section id="skills">
-  <div class="section-inner">
-
-    <div class="section-label">Skills</div>
-
-    <p class="skills-summary">
-    </p>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h3>Data & Analytics</h3>
-        <div class="tags">
-          <span class="tag">SQL</span>
-          <span class="tag">Python</span>
-          <span class="tag">R</span>
-          <span class="tag">Java</span>
-          <span class="tag">Tableau</span>
-          <span class="tag">ETL</span>
-          <span class="tag">Scikit-learn</span>
-          <span class="tag">Pandas</span>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <span class="eyebrow">Skills</span>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Data &amp; Analytics</h3>
+          <div class="skill-tags">
+            <span>SQL</span><span>Python</span><span>R</span><span>Java</span><span>Tableau</span><span>ETL</span><span>Scikit-learn</span><span>Pandas</span>
+          </div>
         </div>
-      </div>
-
-      <div class="skill-card">
-        <h3>Automation & Engineering</h3>
-        <div class="tags">
-          <span class="tag">GitHub</span>
-          <span class="tag">APIs</span>
-          <span class="tag">Webhooks</span>
-          <span class="tag">Data Scraping</span>
-          <span class="tag">UI Path</span>
-          <span class="tag">Postman</span>
-          <span class="tag">HubSpot API</span>
-          <span class="tag">CRM Automation</span>
-          <span class="tag">Flask</span>
+        <div class="skill-group">
+          <h3>Automation &amp; Engineering</h3>
+          <div class="skill-tags">
+            <span>GitHub</span><span>APIs</span><span>Webhooks</span><span>Data Scraping</span><span>UiPath</span><span>Postman</span><span>HubSpot API</span><span>CRM Automation</span><span>Flask</span>
+          </div>
         </div>
-      </div>
-
-      <div class="skill-card">
-        <h3>Revenue & GTM Tools</h3>
-        <div class="tags">
-          <span class="tag">HubSpot CRM</span>
-          <span class="tag">Salesforce CRM</span>
-          <span class="tag">Workflow Automation</span>
-          <span class="tag">Pipeline Management</span>
-          <span class="tag">Lead Scoring</span>
-          <span class="tag">Hubspot API</span>
-          <span class="tag">Hubspot Development</span>
-          <span class="tag">CRM Data Quality</span>
-          <span class="tag">Data Enrichment</span>
-          <span class="tag">Reporting and Dashboards</span>
+        <div class="skill-group">
+          <h3>Revenue &amp; GTM Tools</h3>
+          <div class="skill-tags">
+            <span>HubSpot CRM</span><span>Salesforce CRM</span><span>Workflow Automation</span><span>Pipeline Management</span><span>Lead Scoring</span><span>HubSpot Development</span><span>CRM Data Quality</span><span>Data Enrichment</span><span>Reporting &amp; Dashboards</span>
+          </div>
         </div>
-      </div>
-      
-      <div class="skill-card">
-        <h3>Full-Stack & AI</h3>
-        <div class="tags">
-          <span class="tag">AI Agents</span>
-          <span class="tag">Claude code</span>
-          <span class="tag">MCP</span>
-          <span class="tag">TypeScript</span>
-          <span class="tag">React</span>
-          <span class="tag">PostgreSQL</span>
-          <span class="tag">Prisma</span>
-          <span class="tag">REST APIs</span>
-          <span class="tag">Prompt Engineering</span>
-          <span class="tag">Groq</span>
-          <span class="tag">Puppeteer</span>
+        <div class="skill-group">
+          <h3>Full-Stack &amp; AI</h3>
+          <div class="skill-tags">
+            <span>AI Agents</span><span>Claude Code</span><span>MCP</span><span>TypeScript</span><span>React</span><span>PostgreSQL</span><span>Prisma</span><span>REST APIs</span><span>Prompt Engineering</span><span>Groq</span><span>Puppeteer</span>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
-  </div>
-</section>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <span class="eyebrow">About</span>
+      <p class="about-text">
+        I'm a junior at the University of Minnesota, Twin Cities, studying <strong>Data Science</strong> with a minor in Computer Science, graduating 2027. I care about the unglamorous infrastructure that makes GTM teams trust their numbers — CRM integrations, automation, and the analytics layer sitting on top. Based in Minneapolis.
+      </p>
+    </div>
+  </section>
 
-  
   <!-- CONTACT -->
   <section id="contact">
-    <div class="section-inner">
-      <div class="section-label">Contact</div>
-      <div class="contact-grid">
-        <div class="contact-left">
-          <h2>Open to opportunities, collaborations, and interesting problems.</h2>
-        </div>
-        <div class="contact-right">
-          <p>Im open to interesting projects and conversations: especially around GTM engineering, RevOps, AI workflows, and CRM/data systems. I respond quickly.</p>
-          <div class="contact-links">
-            <a href="mailto:jsandau@sandau.com" class="contact-email">jsandau@sandau.com</a>
-            <div class="contact-social">
-              <a href="https://www.linkedin.com/in/jacob-sandau-204743233/" target="_blank">LinkedIn</a>
-              <a href="https://github.com/jsandau" target="_blank">GitHub</a>
-            </div>
-          </div>
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h2 class="contact-heading">Open to analytics engineering and RevOps roles.</h2>
+      <p class="contact-copy">Also open to interesting technical problems in between — CRM systems, data pipelines, AI workflows. I respond quickly.</p>
+      <div class="contact-actions">
+        <a href="mailto:jsandau@sandau.com" class="contact-email">jsandau@sandau.com</a>
+        <div class="contact-social">
+          <a href="https://www.linkedin.com/in/jacob-sandau-204743233/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/jsandau" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
     </div>

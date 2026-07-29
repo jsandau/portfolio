@@ -8,7 +8,6 @@
   /* --------------------------------------------------
      1. NAV — active link highlighting on scroll
   -------------------------------------------------- */
-  const nav       = document.getElementById('nav');
   const navLinks  = document.querySelectorAll('.nav-links a');
   const sections  = document.querySelectorAll('section[id]');
   const toggle    = document.querySelector('.nav-toggle');
@@ -68,35 +67,49 @@
 
 
   /* --------------------------------------------------
-     4. SCROLL REVEAL — minimal reveal on intersection
+     4. METRIC COUNT-UP — one-time, fires when a metric
+        first enters the viewport. No opacity/position
+        change on the element itself, only its digits.
   -------------------------------------------------- */
-  const revealElements = [
-    '.section-label',
-    '.about-grid',
-    '.project-card',
-    '.contact-grid',
-    'footer',
-  ];
+  const metricEls = document.querySelectorAll('[data-countup]');
 
-  // Mark elements for reveal
-  revealElements.forEach(selector => {
-    document.querySelectorAll(selector).forEach((el) => {
-      el.classList.add('reveal');
-    });
-  });
+  function animateMetric(el) {
+    const target   = parseFloat(el.dataset.target);
+    const decimals = parseInt(el.dataset.decimals || '0', 10);
+    const prefix   = el.dataset.prefix || '';
+    const suffix   = el.dataset.suffix || '';
+    const duration = 900;
+    const start    = performance.now();
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
+    function frame(now) {
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3); // ease-out cubic
+      el.textContent = prefix + (target * eased).toFixed(decimals) + suffix;
+      if (p < 1) requestAnimationFrame(frame);
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  if (metricEls.length) {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      metricEls.forEach(el => {
+        const target   = parseFloat(el.dataset.target);
+        const decimals = parseInt(el.dataset.decimals || '0', 10);
+        el.textContent = (el.dataset.prefix || '') + target.toFixed(decimals) + (el.dataset.suffix || '');
       });
-    },
-    { threshold: 0.1, rootMargin: '0px 0px -60px 0px' }
-  );
+    } else {
+      const metricObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateMetric(entry.target);
+            metricObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.6 });
 
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+      metricEls.forEach(el => metricObserver.observe(el));
+    }
+  }
 
 })();
