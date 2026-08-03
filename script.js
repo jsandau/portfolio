@@ -1,12 +1,12 @@
 /* =============================================
-   script.js — Portfolio interactions
+   script.js - Portfolio interactions
    ============================================= */
 
 (function () {
   'use strict';
 
   /* --------------------------------------------------
-     1. NAV — active link highlighting on scroll
+     1. NAV - active link highlighting on scroll
   -------------------------------------------------- */
   const navLinks  = document.querySelectorAll('.nav-links a');
   const sections  = document.querySelectorAll('section[id]');
@@ -67,7 +67,7 @@
 
 
   /* --------------------------------------------------
-     4. METRIC COUNT-UP — one-time, fires when a metric
+     4. METRIC COUNT-UP - one-time, fires when a metric
         first enters the viewport. No opacity/position
         change on the element itself, only its digits.
   -------------------------------------------------- */

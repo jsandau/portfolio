@@ -1,0 +1,4 @@
+.playwright-mcp/
+desktop.ini
+*.xlsx
+.agents/
